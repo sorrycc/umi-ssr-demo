@@ -6,4 +6,8 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
+  ssr: {
+    platform: 'vercel',
+    builder: 'webpack',
+  },
 });
