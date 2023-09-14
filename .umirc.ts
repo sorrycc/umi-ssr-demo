@@ -8,5 +8,6 @@ export default defineConfig({
   npmClient: 'pnpm',
   ssr: {
     builder: 'webpack',
+    platform: 'vercel',
   },
 });
